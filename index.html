@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+  </head>
+  <body>
+    <h1>Rock | Paper | Scissors</h1>
+    <div class="wrapper">
+      <div class="all_items" id ="rock"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></div>
+      <div class="all_items" id ="paper"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></div>
+      <div class="all_items" id ="scissors"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></div>
+      <div class="data_info">
+        <h2>Win: <span id = "win"></span></h2>
+        <h2>Loss: <span id = "lose"></span></h2>
+        <h2>Tie: <span id = "tie"></span></h2>
+        <button id="reset_game">Reset Game</button>
+      </div>
+      <div class="output_info">
+        <h2>Computer Choice:</h2>
+        <span id = "computer_choice"> </span>
+      </div>
+      <div id="win_declaration"></div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
